@@ -13,16 +13,27 @@ The dataset includes details on the ticket booking alternatives available throug
 Dataset Link: Kaggle
 
 The various features of the cleaned dataset are explained below:
+
 Airline: The airline column contains the name of the airline firm. There are six different airlines, making it a category trait.
+
 Flight: The flight code of the aircraft is stored in flight.
+
 Source City: City where the flight departs from is a classification feature with 6 distinctive cities.
+
 Departure Time: This is a categorical feature that was deduced from time periods being divided into bins. It has six different time labels and stores information about the departure time.
+
 Stops: A category feature that holds the number of stops between the source and destination cities and has 3 different values.
+
 Arrival Time: This derived categorical feature was developed by binning time intervals. It maintains information regarding the arrival time and has six different time labels.
+
 Destination City: The location of the aircraft's landing. It is a classification feature with 6 distinctive cities.
+
 Class: A permanent feature that shows the total number of hours needed to travel between cities.
+
 Duration: A permanent feature that shows the total number of hours needed to travel between cities.
-10)Days Left: The trip date is subtracted from the booking date to arrive at this derived feature.
+
+Days Left: The trip date is subtracted from the booking date to arrive at this derived feature.
+
 Price: Information about the ticket price is stored in the target variable.
 
 Power BI Visualization Dashboard
